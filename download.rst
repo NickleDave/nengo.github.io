@@ -4,11 +4,10 @@ Download
 
 Nengo runs on Windows, Mac OS X and Linux
 and requires Python.
-To install Nengo, we recommend using ``pip``.
-
-.. code:: bash
+To install Nengo, we recommend using ``pip``::
 
    pip install nengo nengo-gui
+
 
 If you do not have ``pip`` installed,
 or if you run into any errors
@@ -59,9 +58,7 @@ to install it.
 Unless you have a reason to stay with Python 2,
 opt for the Python 3 installer.
 Once Anaconda is installed,
-open the Anaconda command prompt and do
-
-.. code:: bash
+open the Anaconda command prompt and do::
 
    pip install nengo nengo-gui
 
@@ -75,9 +72,7 @@ the ``conda`` command line tool
 without having to download a ton of packages
 you might not use.
 After running the Miniconda_ installer,
-open the command prompt and do
-
-.. code:: bash
+open the command prompt and do::
 
    conda install numpy pip
    pip install nengo nengo-gui
@@ -95,9 +90,7 @@ Mac OS X: Homebrew
 ^^^^^^^^^^^^^^^^^^
 
 On Mac OS X, Homebrew_ has excellent Python support.
-After installing Homebrew:
-
-.. code:: bash
+After installing Homebrew::
 
    brew install python
    pip install numpy
@@ -108,9 +101,7 @@ will install Nengo and its dependencies.
 Debian, Ubuntu: apt
 ^^^^^^^^^^^^^^^^^^^
 
-In Debian, Ubuntu, and other distributions with ``apt``, do:
-
-.. code:: bash
+In Debian, Ubuntu, and other distributions with ``apt``, do::
 
    sudo apt-get install python-numpy python-pip
    pip install nengo nengo-gui
@@ -118,9 +109,7 @@ In Debian, Ubuntu, and other distributions with ``apt``, do:
 Fedora, CentOS: yum
 ^^^^^^^^^^^^^^^^^^^
 
-In Fedora, CentOS, and others distributions with ``yum``, do:
-
-.. code:: bash
+In Fedora, CentOS, and others distributions with ``yum``, do::
 
    sudo yum install python-numpy python-pip
    pip install nengo nengo-gui

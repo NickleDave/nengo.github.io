@@ -3,8 +3,12 @@
 from datetime import datetime
 import os
 import sys
+sys.path.insert(0, os.path.abspath('.'))
+#sys.path.append('.')
 
-import guzzle_sphinx_theme
+#import guzzle_sphinx_theme
+from _conf import *
+#from crate.theme.rtd.conf import *
 
 sys.path.extend(os.path.dirname(__file__))
 extensions = [
@@ -13,7 +17,6 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinx.ext.mathjax",
     "sphinx.ext.todo",
-    "guzzle_sphinx_theme",
     "custom",  # Loaded from the current directory
 ]
 
@@ -21,11 +24,11 @@ suppress_warnings = ['image.nonlocal_uri']
 source_suffix = ".rst"
 master_doc = "index"
 exclude_patterns = [
-    "_build", "Thumbs.db", ".DS_Store", "_records/*.rst", "overview.rst",
+    "_build", "Thumbs.db", ".DS_Store", "_records/*.rst", 
 ]
 
 project = "Nengo"
-copyright = "2016, Applied Brain Research"
+copyright = "2018, Applied Brain Research"
 author = "Applied Brain Research"
 version = release = datetime.now().strftime("%Y-%m-%d")
 language = None
@@ -37,17 +40,11 @@ intersphinx_mapping = {
 }
 
 # HTML theming
-pygments_style = "sphinx"
+pygments_style = "friendly"
 templates_path = ["_templates"]
 html_static_path = ["_static"]
-
-html_theme_path = guzzle_sphinx_theme.html_theme_path()
-html_theme = "guzzle_sphinx_theme"
-
-html_theme_options = {
-    "project_nav_name": "Nengo",
-    "base_url": "https://www.nengo.ai/",
-}
+html_favicon = "_static/favicon.ico"
+html_theme_path = ["_conf"]
 
 # Other builders
 htmlhelp_basename = "Nengo"

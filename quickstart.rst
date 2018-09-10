@@ -5,13 +5,9 @@ Quick start guide
 There is independent documentation
 for each of the projects
 in the :ref:`Nengo ecosystem`.
-Clicking the |docbutton| button for the project
-will take you to the appropriate site.
+The links are listed :ref:`here <Documentation>`.
 
 This page provides a quick guide to running Nengo models.
-
-.. |docbutton| image::
-   https://img.shields.io/badge/documentation--green.svg?style=social
 
 Running models
 ==============
@@ -102,9 +98,7 @@ All Python distributions come with
 an interpreter that you can usually run
 through a terminal by typing in ``python``
 and hitting enter.
-You should see a prompt that looks like this:
-
-.. code:: bash
+You should see a prompt that looks like this::
 
    $ python
    Python 3.5.3 (default, Jan 19 2017, 14:11:04)
@@ -124,9 +118,7 @@ These scripts can be run from a terminal.
 For example, after downloading
 `single_neuron.py
 <https://www.nengo.ai/nengo/examples/single_neuron.html>`_,
-you can run it like this:
-
-.. code:: bash
+you can run it like this::
 
    $ python single_neuron.py
 
@@ -147,9 +139,7 @@ These are run through the Jupyter notebook.
 For example, after downloading
 `single_neuron.ipynb
 <https://www.nengo.ai/nengo/examples/single_neuron.ipynb>`_,
-you can start the notebook like this:
-
-.. code:: bash
+you can start the notebook like this::
 
    $ jupyter notebook
 

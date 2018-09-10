@@ -21,15 +21,11 @@ As with all Nengo projects,
 are welcome!
 
 If you want to build the site locally to verify your changes,
-install the requirements with
-
-.. code:: bash
+install the requirements with::
 
    pip install -r requirements.txt
 
-Then whenever you want to rebuild the site, do
-
-.. code:: bash
+Then whenever you want to rebuild the site, do::
 
    sphinx-build . _build
 

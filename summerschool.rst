@@ -1,6 +1,7 @@
-************************
-2018 Nengo summer school
-************************
+*******************
+Nengo summer school
+*******************
+2018
 
 .. image:: _static/summerschool-campus.png
    :width: 100%

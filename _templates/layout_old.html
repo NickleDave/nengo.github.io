@@ -1,0 +1,18 @@
+{# Import the theme's layout. #}
+{% extends "!layout.html" %}
+
+{%- block extrahead %}
+<link rel="stylesheet" type="text/css" href="{{ pathto("_static/custom.css", 1) }}">
+{# Call the parent block #}
+{{ super() }}
+{%- endblock %}
+
+{%- block sidebar1 %}
+  <div id="left-column">
+    <div class="sphinxsidebar">
+      <a href="{{ homepage() }}" class="text-logo"><img src="https://www.nengo.ai/design/_images/full-light.svg" width=200></a>
+      {% include "globaltoc.html" %}
+      {% include "searchbox.html" %}
+    </div>
+  </div>
+{% endblock %}
