@@ -3,12 +3,9 @@
 from datetime import datetime
 import os
 import sys
-sys.path.insert(0, os.path.abspath('.'))
-#sys.path.append('.')
+#sys.path.insert(0, os.path.abspath('.'))
 
-#import guzzle_sphinx_theme
-from _conf import *
-#from crate.theme.rtd.conf import *
+from crate.theme.rtd.crate import *
 
 sys.path.extend(os.path.dirname(__file__))
 extensions = [
@@ -44,7 +41,6 @@ pygments_style = "friendly"
 templates_path = ["_templates"]
 html_static_path = ["_static"]
 html_favicon = "_static/favicon.ico"
-html_theme_path = ["_conf"]
 
 # Other builders
 htmlhelp_basename = "Nengo"

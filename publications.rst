@@ -3,7 +3,7 @@ Publications
 ************
 
 Publications about Nengo
-========================
+------------------------
 
 Below are publications about Nengo itself.
 If you want to cite Nengo,
@@ -27,7 +27,7 @@ in the Nengo neural network simulator.
 `PDF <http://journal.frontiersin.org/article/10.3389/fninf.2017.00033/pdf>`__
 
 Publications using Nengo
-========================
+------------------------
 
 Below are a small selection of publications
 that use Nengo.
@@ -36,6 +36,11 @@ for a partial list, see `the CNRGlab website
 <http://compneuro.uwaterloo.ca/publications.html>`_.
 
 .. todo:: and at the model archive.
+
+
+Eliasmith, C. (2013). How to build a brain: A neural architecture for
+biological cognition. *Oxford University Press*. `website <https://compneuro.uwaterloo.ca>`_, 
+`amazon <http://www.amazon.com/How-Build-Brain-Architecture-Architectures/dp/0199794545/>`_
 
 Eliasmith et al. (2012).
 A large-scale model of the functioning brain.
@@ -94,9 +99,9 @@ and phonological levels and the inner speech loop.
 `Full text <https://www.frontiersin.org/articles/10.3389/fncom.2016.00051/full>`__
 
 Popular press
-=============
+-------------
 
-Below are popular press articles that reference Nengo.
+Below are some of the popular press articles that reference Nengo.
 
 .. seealso::
    * `Articles referencing Spaun
