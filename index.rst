@@ -1,4 +1,4 @@
-|    Neuromorphic applications development
+|    Neuromorphic application development
 |
 |           like never before.
 
