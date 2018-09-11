@@ -2,12 +2,13 @@
 Documentation
 *************
 
+To get going, check out the :ref:`Quick start guide`.
+
 The :ref:`Nengo ecosystem` includes many packages to implement core 
 functionality, graphical intefaces, neuromorphic backends,
 and more.  For more details on the overall ecosystem, see :ref:`here <Nengo ecosystem>`.
 
 Jump to documentation for: 
-
 
 .. |nengocore| image:: https://www.nengo.ai/design/_images/full-light.svg
    :height: 50
@@ -45,18 +46,14 @@ Jump to documentation for:
 .. |nengoocl|  replace:: NengoOCL
 .. _nengoocl: https://github.com/nengo/nengo-ocl
 
-
 .. |nengompi|  replace:: NengoMPI
 .. _nengompi: https://github.com/nengo/nengo-mpi
-
 
 .. |nengoexamples|  replace:: NengoExamples
 .. _nengoexamples: https://github.com/nengo/nengo-examples
 
-
 .. |nengoextras|  replace:: NengoExtras
 .. _nengoextras: https://www.nengo.ai/nengo-extras/
-
 
 .. |nengolib|  replace:: NengoLib
 .. _nengolib: https://arvoelke.github.io/nengolib-docs/
@@ -74,4 +71,11 @@ Jump to documentation for:
 +------------------+----------------+--------------+
 | |nengoexamples|_ | |nengoocl|_    | |nengompi|_  |
 +------------------+----------------+--------------+
+
+..
+
+A few additional resources:
+ - :ref:`Publications` - A list of related academic publications
+ - :ref:`Videos` - Videos showing Nengo in action
+
 
