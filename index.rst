@@ -35,4 +35,6 @@ Resources:
  - Built-in tutorials
  - Read the `code <https://github.com/abr>`_
 
+.. raw:: html
 
+    <iframe width="560" height="315" src="http://www.youtube.com/embed/zGpwSeMtCQc?rel=0" frameborder="0" allowfullscreen></iframe>
